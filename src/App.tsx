@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import Button from '@mui/material/Button';
 import ProTip from './ProTip';
 
 function Copyright() {
@@ -24,6 +25,7 @@ export default function App() {
         <Typography variant='h4' component='h1' gutterBottom>
           Create React App example with TypeScript
         </Typography>
+        <Button variant='contained'>Text</Button>
         <ProTip />
         <Copyright />
       </Box>
