@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@mui/core": "^5.0.0-alpha.54",
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
