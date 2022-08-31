@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@mui/core": "^5.0.0-alpha.54",
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -19,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=2b30367ee9d9"
   },
   "browserslist": {
     "production": [
@@ -44,6 +46,8 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
+    "chromatic": "^6.8.0",
+    "storybook-addon-designs": "^6.3.1",
     "storybook-addon-material-ui": "^0.9.0-alpha.24"
   },
   "eslintConfig": {
@@ -57,5 +61,7 @@
         }
       }
     ]
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "create-react-app-with-typescript@5.0.0"
 }
